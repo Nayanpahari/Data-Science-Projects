@@ -54,66 +54,58 @@ FROM bookings
 WHERE Booking_Status = 'Confirmed'
 GROUP BY Country
 ORDER BY Total_Revenue DESC;
+```
+### 📈 Power BI Dashboard
 
-📈 Power BI Dashboard
+- The Power BI report includes:
+- Revenue Overview: Total and average revenue by country and booking channel.
+- Customer Insights: Repeat customers, booking frequency, and payment preferences.
+- Time-Based Trends: Monthly booking and cancellation rate visualization.
+- Interactive Filters: Filter data by status, date range, and region.
 
-The Power BI report includes:
-
-Revenue Overview: Total and average revenue by country and booking channel.
-
-Customer Insights: Repeat customers, booking frequency, and payment preferences.
-
-Time-Based Trends: Monthly booking and cancellation rate visualization.
-
-Interactive Filters: Filter data by status, date range, and region.
-
-🖼️ Power BI Dashboard Preview
+### 🖼️ Power BI Dashboard Preview
 
 [![Power BI Dashboard Preview](https://raw.githubusercontent.com/Nayanpahari/Data-Science-Projects/main/OLA_DataAnalysis/Dashboard/Overall.png)](https://github.com/Nayanpahari/Data-Science-Projects/blob/main/OLA_DataAnalysis/Dashboard/Overall.png)
 
-⚙️ Tools & Technologies
-Tool	Purpose
-SQL (MySQL / PostgreSQL)	Data cleaning and analysis
-Power BI	Data visualization and dashboard creation
-Excel / CSV	Data source and storage format
-🧩 How to Use
+### ⚙️ Tools & Technologies
 
-Download the dataset from this repository.
+| Tool | Purpose |
+|--------------|-------------|
+| `SQL (MySQL / PostgreSQL)` | Data cleaning and analysis |
+| `Power BI` | Data visualization and dashboard creation |
+| `Excel / CSV` | Data source and storage format |
 
-Import it into SQL (MySQL / PostgreSQL).
+### 🧩 How to Use
+- Download the dataset from this repository.
+- Import it into SQL (MySQL / PostgreSQL).
+- Run the SQL scripts in the /sql/queries.sql folder for preprocessing and KPI calculation.
+- Load the cleaned dataset into Power BI and use the .pbix file (if provided) to explore insights.
 
-Run the SQL scripts in the /sql/queries.sql folder for preprocessing and KPI calculation.
+### 📚 Insights Derived
 
-Load the cleaned dataset into Power BI and use the .pbix file (if provided) to explore insights.
+- Identified top revenue-generating countries and high-performing months.
+- Found trends in cancellation behavior and payment method preferences.
+- Discovered relationships between stay duration and average booking value.
+- Provided clear, actionable insights for business optimization.
 
-📚 Insights Derived
+### 🧾 Results Snapshot
 
-Identified top revenue-generating countries and high-performing months.
+| Metric | Value |
+|--------------|-------------|
+| `Total Bookings` | 100,000+ |
+| `Data Source` | Booking Records (July) |
+| `Dashboard Tool` | Power BI |
+| `SQL Engine` | MySQL |
 
-Found trends in cancellation behavior and payment method preferences.
+### 📄 License
 
-Discovered relationships between stay duration and average booking value.
+- This dataset and project are released for educational and analytical purposes.
+- You may use, modify, and share it with proper credit.
 
-Provided clear, actionable insights for business optimization.
+## 🙌 Author
+**Nayan Pahari**  
+📍 Kolkata, India  
+📧 [nayanpahari434@gmail.com](mailto:nayanpahari434@gmail.com)  
+🔗 [Connect with me on LinkedIn – Nayan Pahari](https://www.linkedin.com/in/nayan-pahari) | [GitHub](https://github.com/NayanPahari) | [Portfolio](https://nayanpahari.github.io/)
 
-🧾 Results Snapshot
-
-Metric	Value
-Total Bookings	100,000+
-Data Source	Booking Records (July)
-Dashboard Tool	Power BI
-SQL Engine	MySQL / PostgreSQL
-
-📄 License
-
-This dataset and project are released for educational and analytical purposes.
-You may use, modify, and share it with proper credit.
-
-🙌 Author
-
-Nayan Pahari
-📍 Kolkata, India
-📧 nayanpahari434@gmail.com
-
-🔗 LinkedIn | GitHub
 
