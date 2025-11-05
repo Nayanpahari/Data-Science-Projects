@@ -69,7 +69,7 @@ Interactive Filters: Filter data by status, date range, and region.
 
 🖼️ Power BI Dashboard Preview
 
-
+[![Power BI Dashboard Preview](https://raw.githubusercontent.com/Nayanpahari/Data-Science-Projects/main/OLA_DataAnalysis/Dashboard/Overall.png)](https://github.com/Nayanpahari/Data-Science-Projects/blob/main/OLA_DataAnalysis/Dashboard/Overall.png)
 
 ⚙️ Tools & Technologies
 Tool	Purpose
